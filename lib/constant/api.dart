@@ -1,0 +1,33 @@
+class PathAPI {
+  static const String URL = 'https://msl4289api.msl4289.com/api/';
+  static const String LOGIN = URL + 'user/login';
+  static const String USER_DASHBOARD = URL + 'user/dashboard';
+  static const String USER_UPDATE_PROFILE = URL + 'user/updateprofile';
+  static const String ALL_CATEGORY = URL + 'user/allcategoryuser';
+  static const String ALL_PRODUCT = '${URL}user/allproductuser';
+  static const String ALL_BRANCH_PRODUCTS = URL + 'user/allproductbybranch';
+  static const String TOP_PRODUCTS = URL + 'user/topproducts';
+  static const String TOP_BRANCH_PRODUCTS = URL + 'user/topproductsbybranch';
+  static const String TOP_BRANCH = URL + 'user/topbranchs';
+  static const String BANK_RQCODE = URL + 'user/bankqrcode';
+  static const String UPDATE_USER_IMAGE = URL + 'user/updateprofileimage';
+  static const String ADDRESS = URL + 'address';
+  static const String UPDATE_USER_PROFILE = URL + 'user/updateprofile';
+  static const String UPDATE_BRANCH_LOGO = URL + 'user/branlogo';
+  static const String UPDATE_BRANCH_PROFILE = URL + 'user/branchprofile';
+  static const String UPDATE_QRCODE = URL + 'user/branbank';
+  static const String ORDERING = URL + 'user/allorderbybranch';
+  static const String BRANCH_CONFIRM_ORDER = URL + 'user/branchconfirmorder';
+  static const String ORDER_SUCCESS = URL + 'user/allorderbybranchsuccess';
+  static const String ORDER_CANCEL = URL + 'user/branchcancelorder';
+  static const String PRODUCT_BY_BRANCH = URL + 'user/allproductbybranchid';
+  static const String EXPRESE = URL + 'exprese';
+  static const String WALLET = URL + 'user/userwallet';
+  static const String USER_CHECK_OUT = URL + 'user/usercheckout';
+  static const String HISTORIES = URL + 'user/histories';
+  static const String BRANCH_CHECK_OUT = URL + 'user/usercheckoutbybranch';
+  static const String USER_PAYMENT = URL + 'user/userpayment';
+  static const String USER_PAYMENT_BY_BRANCH = URL + 'user/branchpayment';
+  static const String ALL_MEMBER_ID = URL + 'allmembers';
+  static const String BRANCH_CLOSE_OPEN = URL + 'user/brachcloseopen';
+}
